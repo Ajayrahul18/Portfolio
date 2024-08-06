@@ -430,3 +430,28 @@ footer {
 footer p {
   text-align: center;
 }
+
+
+.text-container {
+  align-items: flex-start;
+  text-align: left;
+}
+
+.about-containers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* Adjust spacing between items */
+  gap: 20px; /* Optional: Adds space between the rows */
+}
+
+.details-container {
+  flex: 1 1 calc(33.333% - 20px); /* Ensures three items per row */
+  box-sizing: border-box;
+  margin-bottom: 20px; /* Adjusts space between rows */
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
